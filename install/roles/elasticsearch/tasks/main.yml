@@ -5,7 +5,7 @@
 
 - name: Install libsemanage-python and dependencies
   yum:
-    name: libsemanage-python
+    name: python3-libsemanage.x86_64
   become: true
 
 - name: Copy elasticsearch yum repo file
